@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+   <style>
+ body {
+            background-image:url( https://d2uqfpnktc64mn.cloudfront.net/uploads/post/image/000/002/008/default_Image-Frozen-River-Under-Purple-Sky.jpg);
+        background-size: cover;
+        }
+.bigbox {
+            width: 100%;
+            
+            height: 100vh;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+
+        }
+
+.littlebox{
+ width:95%;
+ height:10vh;
+ background-color: aquamarine;
+ margin: 20px 0px;
+ 
+}
+.minibox{
+  width:95%;
+  height:30vh;
+  background-color:lightcoral;
+}
+h3{
+  font-size: 40px;
+}
+    .bottombox{
+      width: 95%;
+      height: 650px;
+      display: flex;
+      justify-content: space-between;
+      margin: 20px 0px;
+    }
+    .leftbox img{
+    width:1000px;
+    }
+    .rightbox{
+      background-color: white;
+      padding: 30px;
+    }
+    .rightbox h1{
+     font-size:70px;
+     /* text-align:center; */
+    }
+    .rightbox h4{
+      font-size: 40px;
+    
+    }
+    .btn1{
+      padding: 10px 40px;
+      background-color: red;
+      color: white;
+      width: 80%;
+      font-size: 25px;
+      margin: 15px 0px;
+    }
+
+    .btn2{
+      padding: 10px 40px;
+      background-color: green;
+      color: white;
+      width: 80%;
+      font-size: 25px;
+    }
+    @media only screen and (max-width:500px){
+      .bottombox{
+      width: 95%;
+      height: 650px;
+      display: flex;
+      justify-content: space-between;
+      margin: 20px 0px;
+      flex-direction: column;
+    }
+    img{
+      width: 360px !important;
+    }
+    textarea{
+      width: 300px !important;
+    }
+    }
+ 
+    
+    </style>
+
+</head>
+
+<body>
+  
+ 
+    <div class="littlebox"> <h2>AI Submit: Chat Window </h2>
+    
+    
+    
+    </div>
+      <div class="minibox"><h2>Welcome to AI Submitt Portal </h2>
+      <h3> Click on the button on the bottom of this page to open the chat form.
+         Note the button and the form will be fixed- they will always be positioned to the bottom of the browser!</h3>
+      </div>
+
+      <div class="bottombox">
+        <div class="leftbox">
+        <img src="https://newsonair.com/wp-content/uploads/2022/09/FcZluO4XEAMRvBT-696x453.jpg" alt="">
+        </div>
+        <div class="rightbox">
+       <h1>Chat</h1>
+        <h4>Message</h4>
+        <textarea name="" id="" cols="60" rows="10" placeholder="Enter Message"></textarea>
+        <div>
+          <button class="btn1">Send</button>
+        </div>
+        <button class="btn2">Close</button>
+      </div>
+      </div>
+
+
+</body>
+
+</html>
